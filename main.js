@@ -1,9 +1,8 @@
 let circle = document.querySelector(".circle");
-let moveBy = 10;
+let moveBy = 370;
 
 window.addEventListener("load", () => {
   (circle.style.position = "absolute"), (circle.style.left = 0);
-  circle.style.left = 0;
   circle.style.top = 0;
 });
 window.addEventListener("keyup", (e) => {
